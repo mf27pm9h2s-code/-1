@@ -70,3 +70,27 @@
   max-width: 420px;
   padding: 24px 18px;
 }
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>모바일 UI</title>
+  <style>
+    body { margin:0; background:#eef2f7; display:flex; justify-content:center; align-items:center; min-height:100vh; }
+    .phone-frame {
+      width:min(100vw, 420px);
+      height:min(100vh - 24px, 860px);
+      background:#111;
+      border-radius:36px;
+      overflow:hidden;
+      border:8px solid #111;
+    }
+  </style>
+</head>
+<body>
+  <div class="phone-frame">
+    모바일용 화면
+  </div>
+</body>
+</html>
