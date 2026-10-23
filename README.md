@@ -65,3 +65,8 @@
     }
   }
 </style>
+.content {
+  width: 100%;
+  max-width: 420px;
+  padding: 24px 18px;
+}
